@@ -1,0 +1,22 @@
+{
+  "name": "fenetre_client",
+  "version": "0.0.1",
+  "description": "Just a small abstraction for front end sockets. Made to work with the fenetre server.",
+  "main": "lib/fenetre_client.js",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur test"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "dckesler",
+  "license": "ISC",
+  "dependencies": {
+    "fenetre": "0.0.3",
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {
+    "mocha-traceur": "^2.1.0",
+    "should": "^7.1.0"
+  }
+}
