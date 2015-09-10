@@ -16,6 +16,7 @@
     "ws": "^0.8.0"
   },
   "devDependencies": {
+    "mocha": "^2.3.2",
     "mocha-traceur": "^2.1.0",
     "should": "^7.1.0"
   }
